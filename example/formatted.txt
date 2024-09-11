@@ -1,0 +1,39 @@
+#include <iostream>
+#include <string>
+
+/*
+    displayNum (int n) - displays the number n
+*/
+void displayNum(int n)
+{
+    std::cout << n << std::endl;
+}
+
+int main()
+{
+    int n = 10;
+
+    while (n > 0)
+    {
+
+        displayNum(n);
+        n--;
+    }
+
+    std::string str1 = "a;;b";
+    std::string str2;
+    std::cin >> str2;
+
+    // could be if(str == str2) return 0;;
+    if (true)
+    {
+        std::cout << "Hello World" << std::endl;
+    }
+
+    /*
+        if (str1 == str2) std::cout << "Hello World" << std::endl;
+
+        for (int i = 0; i < 10; i++)
+            std::cout << i << std::endl;
+    */
+}
